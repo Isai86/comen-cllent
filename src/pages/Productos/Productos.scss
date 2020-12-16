@@ -1,0 +1,41 @@
+@import '../../scss/index.scss';
+.productos {
+    h1 {
+        color: $corporativo;
+        font-family: $title;
+        font-weight: bold;
+    }
+    margin-top: 20px;
+    .header__productos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        font-family: $title;
+    }
+    &__lista {
+        background-color: white;
+        padding: 10px, 20px;
+        .ant-list-item-meta {
+            display: flex;
+            align-items: center;
+            .ant-list-item-meta-content {
+                h4 {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+            .ant-list-item-meta-avatar {
+                margin-left: 5px;
+            }
+        }
+        /*   .ant-list-item-action {
+            .ant-btn {
+                .anticon {
+                    width: 20px;
+                    font-weight: bold;
+                }
+            }
+        } */
+    }
+}

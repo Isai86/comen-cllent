@@ -1,0 +1,34 @@
+@import '../../../scss/index.scss';
+.right-header {
+    background-color: $background-dark;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    i.icon {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 19px;
+        color: $corporativo;
+    }
+    .ant-avatar-image {
+        width: 35px;
+        height: 35px;
+        border: 1px solid $corporativo;
+    }
+    i.icon,
+    .ui.image.avatar {
+        margin: 0 0 0 19px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    svg {
+        display: flex;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        fill: $corporativo;
+    }
+}

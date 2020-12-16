@@ -1,0 +1,15 @@
+@import '../../scss/index.scss';
+.list-promociones {
+    .titulos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        font-family: $title;
+    }
+    h1 {
+        color: $corporativo;
+        font-family: $title;
+        font-weight: bold;
+    }
+}

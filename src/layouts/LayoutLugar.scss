@@ -1,0 +1,47 @@
+@import '../scss/index.scss';
+@import '../scss/index.scss';
+.Layout-admin {
+    transition: margin-left 0.2s;
+    &__header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        padding: 0;
+        height: 65px;
+        background-color: $background-dark !important;
+        z-index: 1000;
+    }
+    &__content {
+        min-height: calc(100vh - 65px);
+        padding: 90px 25px 25px 25px;
+    }
+    &__footer {
+        padding: 0;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+.ant-layout.ant-layout-has-slider {
+    background-color: $background-dark !important;
+    .ant-layout-slider-children {
+        background-color: $background-dark !important;
+    }
+}
+
+.ant-menu-inline,
+.ant-menu-inline-collapsed {
+    background-color: $background-dark !important;
+    &::after,
+    &::active,
+    &::before,
+    &:hover {
+        background-color: $corporativo !important;
+    }
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: $corporativo !important;
+}

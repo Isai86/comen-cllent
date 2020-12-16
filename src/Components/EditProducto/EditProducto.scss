@@ -1,0 +1,30 @@
+@import '../../scss/index.scss';
+.form-edit {
+    text-align: center;
+    .ant-form-item {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .btn-submit {
+        width: 100%;
+        background-color: $corporativo;
+        border-color: $corporativo;
+        &:hover {
+            background-color: $corporativo;
+            border-color: $corporativo;
+        }
+    }
+}
+
+.ant-select-item-option-content,
+.ant-select-selection-item {
+    svg {
+        margin-top: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        //fill: $font-light;
+    }
+}

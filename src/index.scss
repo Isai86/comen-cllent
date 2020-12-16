@@ -1,0 +1,25 @@
+@import './scss/index.scss';
+body {
+    margin: 0;
+    font-family: $Subtitle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.ui.form {
+    .btn-submit {
+        width: 100%;
+        background-color: $corporativo;
+        color: $font-light;
+        font-family: $title;
+    }
+    .submit-error {
+        color: $danger;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+}

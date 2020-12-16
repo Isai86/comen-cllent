@@ -1,0 +1,28 @@
+@import '../../scss/index.scss';
+.map-page {
+    h1 {
+        color: $corporativo;
+        font-family: $title;
+    }
+    .leaflet-container {
+        width: 100%;
+        height: 450px;
+    }
+    .buscador {
+        display: flex;
+        align-content: space-between;
+        .ant-btn {
+            color: white;
+            background-color: $corporativo;
+            font-family: $title;
+        }
+        .ant-input {
+            width: 100%;
+            &:hover,
+            &:active,
+            &:focus {
+                border-color: $corporativo;
+            }
+        }
+    }
+}

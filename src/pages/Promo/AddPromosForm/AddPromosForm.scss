@@ -1,0 +1,27 @@
+@import '../../../scss/index.scss';
+.add-producto-form {
+    .form-add {
+        text-align: center;
+        .ant-form-item {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            .TextArea {
+                width: 100%;
+                height: 120px;
+            }
+        }
+    }
+    .upload-avatar {
+        cursor: pointer;
+        display: table;
+        margin: 0 auto;
+        padding: 16px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 100%;
+        img {
+            width: 200px;
+            height: 100%;
+        }
+    }
+}

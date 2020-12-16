@@ -1,0 +1,65 @@
+@import '../../scss/index.scss';
+.profile {
+    margin-top: 20px !important;
+    &__left {
+        margin-top: 10px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        .ui.image.avatar {
+            width: 170px;
+            height: 170px;
+        }
+    }
+    &__right {
+        font-family: $title;
+        margin-top: 10px;
+        .other {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        h1 {
+            font-weight: bold;
+            font-family: $title;
+        }
+        .ui.button {
+            background-color: $corporativo;
+            color: white;
+            font-family: $title;
+            &:hover {
+                background-color: $corporativo;
+                color: white;
+            }
+        }
+    }
+    &__detalles {
+        font-family: $title;
+        text-align: center;
+        background-color: white;
+        color: white;
+        .like {
+            border-radius: 10px;
+            padding: 20px;
+            background-color: $danger;
+            font-size: 18px;
+        }
+        .coments {
+            border-radius: 10px;
+            padding: 20px;
+            background-color: $action;
+            font-size: 18px;
+        }
+        .calificacion {
+            border-radius: 10px;
+            padding: 20px;
+            background-color: $happy;
+            font-size: 18px;
+        }
+        .views {
+            border-radius: 10px;
+            padding: 20px;
+            background-color: $success;
+            font-size: 18px;
+        }
+    }
+}

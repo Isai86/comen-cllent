@@ -1,0 +1,17 @@
+@import '../../../scss/index.scss';
+.buscador {
+    display: flex;
+    align-content: space-between;
+    .ant-btn {
+        color: white;
+        background-color: $corporativo;
+        font-family: $title;
+    }
+    .ant-input {
+        &:hover,
+        &:active,
+        &:focus {
+            border-color: $corporativo;
+        }
+    }
+}
